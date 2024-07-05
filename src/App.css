@@ -13,3 +13,18 @@
   background-color: #c2d398  !important;
   color: white !important;
 }
+*{
+  color: #33028a !important;
+}
+.font-text{
+  color: #555a8f !important;
+}
+.btn-submit{
+  background-color: #33028a !important;
+  color:white !important;
+}
+
+.custom-bg-success {
+  background-color: #c2d398  !important;
+  color: white !important;
+}

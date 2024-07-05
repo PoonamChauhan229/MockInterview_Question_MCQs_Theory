@@ -1,0 +1,32 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "options": ["Paris", "London", "Berlin", "Rome"],
+        "correctAnswer": "Paris"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Earth", "Mars", "Venus", "Jupiter"],
+        "correctAnswer": "Mars"
+    },
+    {
+        "question": "What is the largest mammal?",
+        "options": ["Elephant", "Blue Whale", "Giraffe", "Hippo"],
+        "correctAnswer": "Blue Whale"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "options": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Michelangelo"],
+        "correctAnswer": "Leonardo da Vinci"
+    },
+    {
+        "question": "What is the capital of Japan?",
+        "options": ["Beijing", "Tokyo", "Seoul", "Bangkok"],
+        "correctAnswer": "Tokyo"
+    },
+    {
+        "question": "What is the tallest mountain in the world?",
+        "options": ["Mount Kilimanjaro", "Mount Everest", "Mount Fuji", "Mount Elbrus"],
+        "correctAnswer": "Mount Everest"
+    }
+]

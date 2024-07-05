@@ -1,10 +1,16 @@
 import React, { useState } from 'react';
-import mcqsData from '../Components/utilis/mcqsData.json'; // Import the JSON file
+import { useLocation, useNavigate } from 'react-router-dom';
+
 
 function MCQComponent({scores,setScores}) {
   // State to store selected answers
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const [submitted, setSubmitted] = useState(false); // State to track submission
+  const navigate=useNavigate()
+
+  const location = useLocation();
+  const mcqsData = location.state;
+  console.log(mcqsData)
 
   // Function to handle selecting an answer
   const handleSelectAnswer = (questionIndex, optionIndex) => {
@@ -80,7 +86,9 @@ function MCQComponent({scores,setScores}) {
         </div>
       </div>
       <div className='text-center mt-3'>
-        <button className="btn btn-submit" onClick={calculateScores} disabled={submitted}>Submit</button>
+        <button className="btn btn-submit px-5" onClick={calculateScores} disabled={submitted}>Submit</button>
+        <button className="btn btn-submit mx-2 px-5" onClick={()=>{navigate('/')}} disabled={submitted}>Back</button>
+     
       </div>
     </div>
   );
